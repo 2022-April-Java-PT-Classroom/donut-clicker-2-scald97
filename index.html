@@ -4,10 +4,46 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="stylesheet.css">
     <title>Donut Clicker</title>
+  
   </head>
+
+
   <body>
-    <div class="container"></div>
-    <script src="./index.js"></script>
+    
+    <div class="nav">
+  
+      <div class="dropdown">
+        <button class="dropbutton">Fred the Baker</button>
+        <div class="dropdown-content">
+          <p>This bakery was est. 2022</p>
+        
+        </div>
+        <button class="dropbutton2">Inspiration</button>
+        <div class="dropdown-content">
+          <p>Cookie Counter</p>
+        </div>
+        <button class="dropbutton3">Contact</button>
+        <div class="dropdown-content">
+          <a href="https://www.linkedin.com/in/serena-ann-howard/">LinkedIn/</a>
+        </div>
+      </div>
+      </nav>
+    </div>
+
+   
+    <div class="clickers">
+      <button id="button">CREATE DONUTS!</button>
+         <p>Donuts:<span id ="clicks">0</span></p>
+     <button type="auto-clicker">Auto Clicker</button>
+         <p>AutoClickers:<span id="clicks">0</span></p>
+     <button type="multiplier">Multiplier</button>
+         <p>Multipliers:<span id="clicks">0</span></p>
+    </div>
+    
+
+    <script type="module" src="./index.js"></script>
+    <script type="module" src="./DonutMaker.js"></script>
   </body>
 </html>
